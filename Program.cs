@@ -13,7 +13,23 @@ namespace Poe_part1
             //creating instance for voice greeting class
             new voice() { };
 
-            //creating constructor for logo class
+            //creating instance for voice class
+           
+
+            //creating instance for logo display
+            new logo() { };
+
+            //creating an instance for full_name classs with object name display_class
+            full_name display_name = new full_name();
+            //calling the welcome method
+            display_name.welcome();
+            //calling the ask name method 
+            display_name.ask_name();
+
+            string name = display_name.GetUsername();
+            ChatBot bot = new ChatBot();
+            bot.Ai_chat(name);
+
         }
     }
 }
