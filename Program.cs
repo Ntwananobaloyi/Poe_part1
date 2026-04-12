@@ -10,6 +10,8 @@ namespace Poe_part1
     {
         static void Main(string[] args)
         {
+            //creating instance for voice greeting class
+            new voice() { };
         }
     }
 }
