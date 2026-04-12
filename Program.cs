@@ -12,6 +12,8 @@ namespace Poe_part1
         {
             //creating instance for voice greeting class
             new voice() { };
+
+            //creating constructor for logo class
         }
     }
 }
